@@ -47,7 +47,7 @@
                                             <constraint firstAttribute="width" secondItem="kaN-c6-anq" secondAttribute="height" multiplier="1:1" id="AmZ-gh-dAG"/>
                                         </constraints>
                                         <connections>
-                                            <outletCollection property="gestureRecognizers" destination="8d9-9X-l8z" appends="YES" id="4Y6-z2-rnK"/>
+                                            <outletCollection property="gestureRecognizers" destination="OLi-UX-CDO" appends="YES" id="4fG-jL-aI1"/>
                                         </connections>
                                     </imageView>
                                 </subviews>
@@ -68,13 +68,12 @@
                         <outlet property="mealNameLabel" destination="wbY-g3-gv1" id="Ijo-k6-Lhw"/>
                         <outlet property="nameTextField" destination="856-Aw-O14" id="fTz-Xq-0iF"/>
                         <outlet property="photoImageView" destination="kaN-c6-anq" id="dSJ-2N-G4q"/>
-                        <outlet property="selectImageFromPhotoLibrary" destination="8d9-9X-l8z" id="78x-PW-ZCg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="8d9-9X-l8z">
+                <tapGestureRecognizer id="OLi-UX-CDO">
                     <connections>
-                        <action selector="selectImageFromPhotoLibrary:" destination="BYZ-38-t0r" id="e2I-o6-Ovc"/>
+                        <action selector="selectImageFromPhotoLibrary:" destination="BYZ-38-t0r" id="EmM-rp-WrU"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
